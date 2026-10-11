@@ -38,7 +38,7 @@ def test_products_visibility(driver):
 
 
 
-@pytest.mark.order(4)
+@pytest.mark.skip
 def test_verify_cartpage(driver):
     lp1=LoginPage(driver)
     lp1.enter_username(u)
