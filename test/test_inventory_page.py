@@ -47,7 +47,7 @@ def test_verify_cartpage(driver):
     sleep(3)
     In1=InventoryPage(driver)
     In1.click_cart_icon()
-    sleep(2)
+    sleep(4)
     assert driver.current_url=='https://www.saucedemo.com/cart.html',driver.save_screenshot("screenshots/cart_page_not_opened.png")
     sleep(2)
 
